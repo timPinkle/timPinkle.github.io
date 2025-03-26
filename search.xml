@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Hexo配置相关</title>
+      <link href="/2025/03/26/hexoCofigHelp/"/>
+      <url>/2025/03/26/hexoCofigHelp/</url>
+      
+        <content type="html"><![CDATA[<h2 id="网站运行时间"><a href="#网站运行时间" class="headerlink" title="网站运行时间"></a>网站运行时间</h2><blockquote><p>  网站的运行时间在配置栏里会提示输入 “Month/Day/Year Time or Year/Month/Day Time”，一开始以为是让输入”Month/Day/Year Time”或是”Year/Month/Day Time”，保存后马上就报错了，考虑到hexo作为一个静态博客网站，计算运行时间的原理应该不复杂，于是试着输入了真实时间，如2025/01/01 00:00:00，网页运行时间就可以正常计算了！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题解决 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo配置 </tag>
+            
+            <tag> 博客搭建 </tag>
+            
+            <tag> 问题解决 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>初见</title>
       <link href="/2025/03/25/meet/"/>
       <url>/2025/03/25/meet/</url>
