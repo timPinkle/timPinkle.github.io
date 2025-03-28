@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>基于Python的批量文件重命名脚本</title>
+      <link href="/2025/03/28/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E9%87%8D%E5%91%BD%E5%90%8D%E8%84%9A%E6%9C%AC/"/>
+      <url>/2025/03/28/%E5%9F%BA%E4%BA%8EPython%E7%9A%84%E6%89%B9%E9%87%8F%E6%96%87%E4%BB%B6%E9%87%8D%E5%91%BD%E5%90%8D%E8%84%9A%E6%9C%AC/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line"> </span><br><span class="line"><span class="keyword">def</span> <span class="title function_">batch_rename</span>(<span class="params">directory, prefix=<span class="string">""</span>, suffix=<span class="string">""</span></span>):</span><br><span class="line">    <span class="comment"># 获取目录下的所有文件</span></span><br><span class="line">    files = os.listdir(directory)</span><br><span class="line">    <span class="comment"># 过滤出文件（不包括目录）</span></span><br><span class="line">    files = [f <span class="keyword">for</span> f <span class="keyword">in</span> files <span class="keyword">if</span> os.path.isfile(os.path.join(directory, f))]</span><br><span class="line">    </span><br><span class="line">    <span class="comment"># 对每个文件进行重命名</span></span><br><span class="line">    <span class="keyword">for</span> i, file <span class="keyword">in</span> <span class="built_in">enumerate</span>(files):</span><br><span class="line">        old_path = os.path.join(directory, file)</span><br><span class="line">        new_name = <span class="string">f"<span class="subst">{prefix}</span><span class="subst">{i+<span class="number">1</span>}</span><span class="subst">{suffix}</span>"</span>  <span class="comment"># </span></span><br><span class="line">        new_path = os.path.join(directory, new_name)</span><br><span class="line">        os.rename(old_path, new_path)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">f"Renamed <span class="subst">{old_path}</span> to <span class="subst">{new_path}</span>"</span>)</span><br><span class="line"> </span><br><span class="line"><span class="comment"># 使用示例 如：directory=C:\\demo\folder    prefix="file_"，suffix=".txt" -&gt; file_1.txt, file_2.txt, ...</span></span><br><span class="line">batch_rename(<span class="string">"directory"</span>, prefix=<span class="string">"prefix"</span>, suffix=<span class="string">"suffix"</span>)</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+            <tag> 脚本 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo配置相关</title>
       <link href="/2025/03/26/hexoCofigHelp/"/>
       <url>/2025/03/26/hexoCofigHelp/</url>
