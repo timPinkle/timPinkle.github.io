@@ -118,48 +118,6 @@
     </entry>
     
     
-    
-    <entry>
-      <title>认识java</title>
-      <link href="/2025/03/25/java/"/>
-      <url>/2025/03/25/java/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java是什么"><a href="#Java是什么" class="headerlink" title="Java是什么?"></a>Java是什么?</h1><p>  Java是一门面向对象的编程语言，具有功能强大和简单易用等特征，…<br>  Java具有简单、面向对象、分布式、安全性、平台独立与可移植性、多线程、动态性等特点。可以编写桌面应用程序、Web应用程序、安卓应用程序、分布式系统和嵌入式系统应用程序等。</p><h1 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h1><p>  20世纪90年代，Sun公司为了抢占市场先机，在1991年成立了一个称为Green的项目小组，专攻计算机在家电产品上的嵌入式应用。<br>  2005年6月，在Java One大会上，Sun公司发布了Java SE 6。<br>  2006年11月13日，Java技术的发明者Sun公司宣布，将Java技术作为免费软件对外发布。Sun公司正式发布的有关Java平台标准版的第一批源代码，以及Java迷你版的可执行源代码。从2007年3月起，全世界所有的开发人员均可对Java源代码进行修改。<br>  2009年，甲骨文公司宣布收购Sun。<br>  2010年，Java编程语言的共同创始人之一詹姆斯·高斯林从Oracle公司辞职。2011年，甲骨文公司推出了Java7。<br>  2014年，甲骨文公司发布了Java8正式版。<br>  2017 年 9 月 22 日，Java 9正式发布，带来了很多新特性，其中最主要的变化是已经实现的模块化系统。<br>  2024年3月20日，甲骨文正式发布Java 22。Java 22 (Oracle JDK 22) 在性能、稳定性和安全性方面进行了改进，包括对Java语言、其API和性能，以及Java开发工具包（JDK）中工具的增强功能，以帮助开发人员提高工作效率。</p><h1 id="语言特点"><a href="#语言特点" class="headerlink" title="语言特点"></a>语言特点</h1><p>  简单<br>  面向对象<br>  分布式<br>  安全性<br>  平台独立性<br>   …</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 后端 </tag>
-            
-            <tag> java </tag>
-            
-            <tag> 入门 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2025/03/25/helloWorld/"/>
-      <url>/2025/03/25/helloWorld/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
   
   
 </search>
